@@ -2,7 +2,7 @@ const API_URL = import.meta.env.VITE_QUIZ_API_URL;
 
 
 export const data = async () => {
-    try {
+    try { // API Fetching 
         const response = await fetch(`https://quizapi.io/api/v1/questions?apiKey=${API_URL}&limit=10`);
         const data = await response.json();
 
