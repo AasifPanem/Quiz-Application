@@ -3,7 +3,7 @@ import "./Quiz.css";
 import {data} from '../assets/data.js'
 
 function Quiz() {
-
+    //USESTATE variables
     let [index,setIndex] = useState(0)
     let [questions,setQuestions] = useState([])
     let [question,setQuestion] = useState(null)
